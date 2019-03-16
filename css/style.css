@@ -1,0 +1,82 @@
+
+body{
+    background-image: url(../images/pizza.jpg);
+    background-repeat: no-repeat; 
+    background-color: #5c5959;
+}
+
+header {
+    height: 100px;
+    width: 600px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: rgba(192, 65, 65,.6);
+    margin: 0 auto;
+}
+header h1{
+    text-align: center;
+    margin: 0;
+}
+
+.menuTop{
+    display: flex;
+    justify-content: center;
+}
+.menuBottom{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 300px;
+}
+.container {
+    height: 230px;
+    width:  200px;
+    background: #5c5959c5;
+    margin: 8px 0;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 ;
+    text-align: left;
+}
+
+
+.container h3 {
+    background-color: #000000b9;
+    text-align: center;
+    color: rgb(224, 220, 220);
+    font-weight: bold;
+
+}
+
+.button{
+    margin: 20px;
+    text-align: center;
+}
+button{
+    height: 40px;
+    width: 170px;
+    background: #5c5959 ;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 ;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.checkout{
+    display: flex;
+    justify-content: center;
+}
+.checkoutContainer {
+    background: #5c5959c5;
+    margin: 8px 0;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 ;
+}
+
+#total{
+    font-size: 18pt;
+    font-weight: bold;
+}
